@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "categories": ["work", "inspiration", "success"]
+  },
+  {
+    "id": 2,
+    "text": "Imagination is more important than knowledge. For knowledge is limited, whereas imagination embraces the entire world.",
+    "author": "Albert Einstein",
+    "categories": ["science", "wisdom", "inspiration"]
+  },
+  {
+    "id": 3,
+    "text": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "categories": ["humor", "life", "wisdom"]
+  },
+  {
+    "id": 4,
+    "text": "In the middle of every difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "categories": ["perseverance", "inspiration", "wisdom"]
+  },
+  {
+    "id": 5,
+    "text": "To be, or not to be, that is the question.",
+    "author": "William Shakespeare",
+    "categories": ["philosophy", "life", "literature"]
+  },
+  {
+    "id": 6,
+    "text": "The unexamined life is not worth living.",
+    "author": "Socrates",
+    "categories": ["philosophy", "wisdom", "life"]
+  },
+  {
+    "id": 7,
+    "text": "I think, therefore I am.",
+    "author": "René Descartes",
+    "categories": ["philosophy", "wisdom"]
+  },
+  {
+    "id": 8,
+    "text": "That which does not kill us makes us stronger.",
+    "author": "Friedrich Nietzsche",
+    "categories": ["perseverance", "courage", "philosophy"]
+  },
+  {
+    "id": 9,
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "categories": ["success", "perseverance", "courage"]
+  },
+  {
+    "id": 10,
+    "text": "It always seems impossible until it's done.",
+    "author": "Nelson Mandela",
+    "categories": ["perseverance", "inspiration", "courage"]
+  },
+  {
+    "id": 11,
+    "text": "The journey of a thousand miles begins with one step.",
+    "author": "Lao Tzu",
+    "categories": ["wisdom", "inspiration", "perseverance"]
+  },
+  {
+    "id": 12,
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "categories": ["life", "wisdom"]
+  },
+  {
+    "id": 13,
+    "text": "You must be the change you wish to see in the world.",
+    "author": "Mahatma Gandhi",
+    "categories": ["inspiration", "leadership", "wisdom"]
+  },
+  {
+    "id": 14,
+    "text": "In three words I can sum up everything I've learned about life: it goes on.",
+    "author": "Robert Frost",
+    "categories": ["life", "wisdom", "perseverance"]
+  },
+  {
+    "id": 15,
+    "text": "To live is the rarest thing in the world. Most people exist, that is all.",
+    "author": "Oscar Wilde",
+    "categories": ["life", "philosophy", "inspiration"]
+  },
+  {
+    "id": 16,
+    "text": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+    "author": "Martin Luther King Jr.",
+    "categories": ["love", "leadership", "wisdom"]
+  },
+  {
+    "id": 17,
+    "text": "The only thing we have to fear is fear itself.",
+    "author": "Franklin D. Roosevelt",
+    "categories": ["courage", "leadership", "inspiration"]
+  },
+  {
+    "id": 18,
+    "text": "If you tell the truth, you don't have to remember anything.",
+    "author": "Mark Twain",
+    "categories": ["humor", "wisdom", "life"]
+  },
+  {
+    "id": 19,
+    "text": "A room without books is like a body without a soul.",
+    "author": "Marcus Tullius Cicero",
+    "categories": ["literature", "wisdom", "philosophy"]
+  },
+  {
+    "id": 20,
+    "text": "We accept the love we think we deserve.",
+    "author": "Stephen Chbosky",
+    "categories": ["love", "life", "literature"]
+  },
+  {
+    "id": 21,
+    "text": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
+    "author": "Marie Curie",
+    "categories": ["science", "courage", "wisdom"]
+  },
+  {
+    "id": 22,
+    "text": "If I have seen further it is by standing on the shoulders of Giants.",
+    "author": "Isaac Newton",
+    "categories": ["science", "wisdom", "leadership"]
+  },
+  {
+    "id": 23,
+    "text": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs",
+    "categories": ["inspiration", "work", "success"]
+  },
+  {
+    "id": 24,
+    "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "author": "Albert Einstein",
+    "categories": ["humor", "science", "wisdom"]
+  },
+  {
+    "id": 25,
+    "text": "People will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+    "author": "Maya Angelou",
+    "categories": ["wisdom", "love", "leadership"]
+  },
+  {
+    "id": 26,
+    "text": "Whether you think you can, or you think you can't—you're right.",
+    "author": "Henry Ford",
+    "categories": ["success", "inspiration", "perseverance"]
+  },
+  {
+    "id": 27,
+    "text": "I have not failed. I've just found 10,000 ways that won't work.",
+    "author": "Thomas A. Edison",
+    "categories": ["perseverance", "science", "success"]
+  },
+  {
+    "id": 28,
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "categories": ["inspiration", "success", "courage"]
+  },
+  {
+    "id": 29,
+    "text": "No one can make you feel inferior without your consent.",
+    "author": "Eleanor Roosevelt",
+    "categories": ["courage", "wisdom", "life"]
+  },
+  {
+    "id": 30,
+    "text": "Do what you can, with what you have, where you are.",
+    "author": "Theodore Roosevelt",
+    "categories": ["perseverance", "work", "leadership"]
+  },
+  {
+    "id": 31,
+    "text": "Happiness depends upon ourselves.",
+    "author": "Aristotle",
+    "categories": ["philosophy", "life", "wisdom"]
+  },
+  {
+    "id": 32,
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "author": "Aristotle",
+    "categories": ["philosophy", "success", "work"]
+  },
+  {
+    "id": 33,
+    "text": "Knowing yourself is the beginning of all wisdom.",
+    "author": "Aristotle",
+    "categories": ["wisdom", "philosophy"]
+  },
+  {
+    "id": 34,
+    "text": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "categories": ["philosophy", "perseverance", "life"]
+  },
+  {
+    "id": 35,
+    "text": "Without music, life would be a mistake.",
+    "author": "Friedrich Nietzsche",
+    "categories": ["life", "philosophy", "inspiration"]
+  },
+  {
+    "id": 36,
+    "text": "The secret of getting ahead is getting started.",
+    "author": "Mark Twain",
+    "categories": ["success", "work", "inspiration"]
+  },
+  {
+    "id": 37,
+    "text": "Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+    "author": "Mark Twain",
+    "categories": ["wisdom", "courage", "philosophy"]
+  },
+  {
+    "id": 38,
+    "text": "Kindness is the language which the deaf can hear and the blind can see.",
+    "author": "Mark Twain",
+    "categories": ["love", "wisdom", "life"]
+  },
+  {
+    "id": 39,
+    "text": "All that we are is the result of what we have thought.",
+    "author": "Buddha",
+    "categories": ["philosophy", "wisdom", "life"]
+  },
+  {
+    "id": 40,
+    "text": "Peace comes from within. Do not seek it without.",
+    "author": "Buddha",
+    "categories": ["wisdom", "philosophy", "life"]
+  },
+  {
+    "id": 41,
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "author": "Confucius",
+    "categories": ["perseverance", "wisdom", "success"]
+  },
+  {
+    "id": 42,
+    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "author": "Confucius",
+    "categories": ["perseverance", "courage", "inspiration"]
+  },
+  {
+    "id": 43,
+    "text": "Choose a job you love, and you will never have to work a day in your life.",
+    "author": "Confucius",
+    "categories": ["work", "life", "success"]
+  },
+  {
+    "id": 44,
+    "text": "An investment in knowledge pays the best interest.",
+    "author": "Benjamin Franklin",
+    "categories": ["wisdom", "success", "work"]
+  },
+  {
+    "id": 45,
+    "text": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+    "author": "Benjamin Franklin",
+    "categories": ["wisdom", "leadership", "science"]
+  },
+  {
+    "id": 46,
+    "text": "Well done is better than well said.",
+    "author": "Benjamin Franklin",
+    "categories": ["work", "leadership", "wisdom"]
+  },
+  {
+    "id": 47,
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "author": "Socrates",
+    "categories": ["wisdom", "philosophy"]
+  },
+  {
+    "id": 48,
+    "text": "Wonder is the beginning of wisdom.",
+    "author": "Socrates",
+    "categories": ["wisdom", "philosophy", "science"]
+  },
+  {
+    "id": 49,
+    "text": "You miss 100% of the shots you don't take.",
+    "author": "Wayne Gretzky",
+    "categories": ["courage", "success", "inspiration"]
+  },
+  {
+    "id": 50,
+    "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "author": "Thomas A. Edison",
+    "categories": ["work", "success", "perseverance"]
+  },
+  {
+    "id": 51,
+    "text": "Injustice anywhere is a threat to justice everywhere.",
+    "author": "Martin Luther King Jr.",
+    "categories": ["leadership", "courage", "philosophy"]
+  },
+  {
+    "id": 52,
+    "text": "The time is always right to do what is right.",
+    "author": "Martin Luther King Jr.",
+    "categories": ["courage", "leadership", "wisdom"]
+  },
+  {
+    "id": 53,
+    "text": "Spread love everywhere you go. Let no one ever come to you without leaving happier.",
+    "author": "Mother Teresa",
+    "categories": ["love", "life", "inspiration"]
+  },
+  {
+    "id": 54,
+    "text": "Not all of us can do great things. But we can do small things with great love.",
+    "author": "Mother Teresa",
+    "categories": ["love", "work", "wisdom"]
+  },
+  {
+    "id": 55,
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "author": "Mahatma Gandhi",
+    "categories": ["life", "wisdom", "inspiration"]
+  },
+  {
+    "id": 56,
+    "text": "The weak can never forgive. Forgiveness is the attribute of the strong.",
+    "author": "Mahatma Gandhi",
+    "categories": ["courage", "love", "wisdom"]
+  },
+  {
+    "id": 57,
+    "text": "Happiness is when what you think, what you say, and what you do are in harmony.",
+    "author": "Mahatma Gandhi",
+    "categories": ["life", "philosophy", "wisdom"]
+  },
+  {
+    "id": 58,
+    "text": "All the world's a stage, and all the men and women merely players.",
+    "author": "William Shakespeare",
+    "categories": ["literature", "life", "philosophy"]
+  },
+  {
+    "id": 59,
+    "text": "Love all, trust a few, do wrong to none.",
+    "author": "William Shakespeare",
+    "categories": ["love", "wisdom", "life"]
+  },
+  {
+    "id": 60,
+    "text": "Brevity is the soul of wit.",
+    "author": "William Shakespeare",
+    "categories": ["literature", "humor", "wisdom"]
+  },
+  {
+    "id": 61,
+    "text": "Cowards die many times before their deaths; the valiant never taste of death but once.",
+    "author": "William Shakespeare",
+    "categories": ["courage", "literature", "life"]
+  },
+  {
+    "id": 62,
+    "text": "There is no charm equal to tenderness of heart.",
+    "author": "Jane Austen",
+    "categories": ["love", "literature", "life"]
+  },
+  {
+    "id": 63,
+    "text": "I declare after all there is no enjoyment like reading!",
+    "author": "Jane Austen",
+    "categories": ["literature", "life", "humor"]
+  },
+  {
+    "id": 64,
+    "text": "It is never too late to be what you might have been.",
+    "author": "George Eliot",
+    "categories": ["inspiration", "life", "perseverance"]
+  },
+  {
+    "id": 65,
+    "text": "You have power over your mind — not outside events. Realize this, and you will find strength.",
+    "author": "Marcus Aurelius",
+    "categories": ["philosophy", "courage", "wisdom"]
+  },
+  {
+    "id": 66,
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "author": "Marcus Aurelius",
+    "categories": ["philosophy", "life", "wisdom"]
+  },
+  {
+    "id": 67,
+    "text": "Waste no more time arguing about what a good man should be. Be one.",
+    "author": "Marcus Aurelius",
+    "categories": ["philosophy", "leadership", "work"]
+  },
+  {
+    "id": 68,
+    "text": "We suffer more often in imagination than in reality.",
+    "author": "Seneca",
+    "categories": ["philosophy", "wisdom", "life"]
+  },
+  {
+    "id": 69,
+    "text": "Luck is what happens when preparation meets opportunity.",
+    "author": "Seneca",
+    "categories": ["success", "work", "philosophy"]
+  },
+  {
+    "id": 70,
+    "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "author": "Seneca",
+    "categories": ["life", "philosophy", "wisdom"]
+  },
+  {
+    "id": 71,
+    "text": "It's not what happens to you, but how you react to it that matters.",
+    "author": "Epictetus",
+    "categories": ["philosophy", "perseverance", "wisdom"]
+  },
+  {
+    "id": 72,
+    "text": "First say to yourself what you would be; and then do what you have to do.",
+    "author": "Epictetus",
+    "categories": ["work", "success", "philosophy"]
+  },
+  {
+    "id": 73,
+    "text": "Somewhere, something incredible is waiting to be known.",
+    "author": "Carl Sagan",
+    "categories": ["science", "inspiration", "wisdom"]
+  },
+  {
+    "id": 74,
+    "text": "We are a way for the cosmos to know itself.",
+    "author": "Carl Sagan",
+    "categories": ["science", "philosophy", "inspiration"]
+  },
+  {
+    "id": 75,
+    "text": "Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist.",
+    "author": "Stephen Hawking",
+    "categories": ["science", "inspiration", "life"]
+  },
+  {
+    "id": 76,
+    "text": "Intelligence is the ability to adapt to change.",
+    "author": "Stephen Hawking",
+    "categories": ["science", "wisdom", "success"]
+  },
+  {
+    "id": 77,
+    "text": "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+    "author": "Richard P. Feynman",
+    "categories": ["science", "wisdom", "philosophy"]
+  },
+  {
+    "id": 78,
+    "text": "I would rather have questions that can't be answered than answers that can't be questioned.",
+    "author": "Richard P. Feynman",
+    "categories": ["science", "philosophy", "courage"]
+  },
+  {
+    "id": 79,
+    "text": "Simplicity is the ultimate sophistication.",
+    "author": "Leonardo da Vinci",
+    "categories": ["wisdom", "work", "inspiration"]
+  },
+  {
+    "id": 80,
+    "text": "Learning never exhausts the mind.",
+    "author": "Leonardo da Vinci",
+    "categories": ["science", "wisdom", "life"]
+  },
+  {
+    "id": 81,
+    "text": "Experience is simply the name we give our mistakes.",
+    "author": "Oscar Wilde",
+    "categories": ["humor", "wisdom", "life"]
+  },
+  {
+    "id": 82,
+    "text": "We are all in the gutter, but some of us are looking at the stars.",
+    "author": "Oscar Wilde",
+    "categories": ["inspiration", "literature", "life"]
+  },
+  {
+    "id": 83,
+    "text": "I can resist everything except temptation.",
+    "author": "Oscar Wilde",
+    "categories": ["humor", "literature"]
+  },
+  {
+    "id": 84,
+    "text": "If you want to go fast, go alone. If you want to go far, go together.",
+    "author": "African Proverb",
+    "categories": ["leadership", "wisdom", "success"]
+  },
+  {
+    "id": 85,
+    "text": "A leader is one who knows the way, goes the way, and shows the way.",
+    "author": "John C. Maxwell",
+    "categories": ["leadership", "work", "success"]
+  },
+  {
+    "id": 86,
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "author": "Steve Jobs",
+    "categories": ["leadership", "work", "success"]
+  },
+  {
+    "id": 87,
+    "text": "Your time is limited, so don't waste it living someone else's life.",
+    "author": "Steve Jobs",
+    "categories": ["life", "inspiration", "courage"]
+  },
+  {
+    "id": 88,
+    "text": "The best way to predict the future is to invent it.",
+    "author": "Alan Kay",
+    "categories": ["science", "inspiration", "work"]
+  },
+  {
+    "id": 89,
+    "text": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "categories": ["work", "science", "humor"]
+  },
+  {
+    "id": 90,
+    "text": "Programs must be written for people to read, and only incidentally for machines to execute.",
+    "author": "Harold Abelson",
+    "categories": ["science", "work", "wisdom"]
+  },
+  {
+    "id": 91,
+    "text": "The most dangerous phrase in the language is, 'We've always done it this way.'",
+    "author": "Grace Hopper",
+    "categories": ["leadership", "science", "courage"]
+  },
+  {
+    "id": 92,
+    "text": "That brain of mine is something more than merely mortal; as time will show.",
+    "author": "Ada Lovelace",
+    "categories": ["science", "courage", "inspiration"]
+  },
+  {
+    "id": 93,
+    "text": "Courage is grace under pressure.",
+    "author": "Ernest Hemingway",
+    "categories": ["courage", "literature", "life"]
+  },
+  {
+    "id": 94,
+    "text": "There is nothing noble in being superior to your fellow man; true nobility is being superior to your former self.",
+    "author": "Ernest Hemingway",
+    "categories": ["wisdom", "perseverance", "life"]
+  },
+  {
+    "id": 95,
+    "text": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+    "author": "Robert Frost",
+    "categories": ["literature", "life", "courage"]
+  },
+  {
+    "id": 96,
+    "text": "There is no greater agony than bearing an untold story inside you.",
+    "author": "Maya Angelou",
+    "categories": ["literature", "courage", "inspiration"]
+  },
+  {
+    "id": 97,
+    "text": "Nothing will work unless you do.",
+    "author": "Maya Angelou",
+    "categories": ["work", "perseverance", "success"]
+  },
+  {
+    "id": 98,
+    "text": "Life is either a daring adventure or nothing at all.",
+    "author": "Helen Keller",
+    "categories": ["courage", "life", "inspiration"]
+  },
+  {
+    "id": 99,
+    "text": "Alone we can do so little; together we can do so much.",
+    "author": "Helen Keller",
+    "categories": ["leadership", "love", "success"]
+  },
+  {
+    "id": 100,
+    "text": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "categories": ["inspiration", "life", "literature"]
+  }
+]

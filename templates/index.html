@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes Explorer — 100 Iconic Quotes</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div>
+        <span class="badge" id="total-badge">100 Curated Quotes</span>
+        <h1>Quotes Explorer</h1>
+        <p class="subtitle">Discover timeless wisdom randomly, or search by author and category.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <!-- Featured Random Quote Spotlight -->
+    <section class="spotlight-section" aria-labelledby="spotlight-heading">
+      <div class="spotlight-header">
+        <h2 id="spotlight-heading" class="sr-only">Featured Random Quote</h2>
+        <span class="pool-indicator" id="pool-indicator">Drawing from all 100 quotes</span>
+        <div class="spotlight-actions">
+          <button type="button" id="copy-quote-btn" class="btn btn-secondary" title="Copy quote to clipboard">
+            Copy Quote
+          </button>
+          <button type="button" id="new-random-btn" class="btn btn-primary">
+            &#x21bb; New Random Quote
+          </button>
+        </div>
+      </div>
+
+      <article class="quote-spotlight-card" id="spotlight-card" aria-live="polite">
+        <div class="quote-mark" aria-hidden="true">&ldquo;</div>
+        <blockquote class="spotlight-text" id="spotlight-text">
+          Loading a timeless quote...
+        </blockquote>
+        <div class="spotlight-footer">
+          <button type="button" class="spotlight-author" id="spotlight-author" title="Filter by this author">
+            &mdash;
+          </button>
+          <div class="spotlight-categories" id="spotlight-categories"></div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Search & Filter Panel -->
+    <section class="filters-section" aria-labelledby="filters-heading">
+      <div class="filters-header">
+        <h2 id="filters-heading">Search &amp; Filter</h2>
+        <button type="button" id="clear-filters-btn" class="btn btn-ghost hidden">
+          Clear Filters &times;
+        </button>
+      </div>
+
+      <div class="search-controls">
+        <div class="input-group">
+          <label for="author-input">Search by Author</label>
+          <div class="input-wrapper">
+            <input
+              type="text"
+              id="author-input"
+              list="authors-datalist"
+              placeholder="e.g. Albert Einstein, Oscar Wilde, Maya Angelou..."
+              autocomplete="off"
+            />
+            <button type="button" id="clear-author-btn" class="clear-input-btn hidden" aria-label="Clear author search">&times;</button>
+          </div>
+          <datalist id="authors-datalist"></datalist>
+        </div>
+
+        <div class="input-group">
+          <label for="category-select">Quick Category Select</label>
+          <select id="category-select">
+            <option value="">All Categories</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="category-pills-wrapper">
+        <span class="pills-label">Categories:</span>
+        <div class="category-pills" id="category-pills" role="group" aria-label="Filter by category">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Matching Quotes List -->
+    <section class="results-section" aria-labelledby="results-heading">
+      <div class="results-header">
+        <h2 id="results-heading">Matching Quotes</h2>
+        <span class="results-count" id="results-count">Showing 100 quotes</span>
+      </div>
+
+      <div id="empty-state" class="empty-state hidden">
+        <p>No quotes found matching your current author and category filters.</p>
+        <button type="button" id="empty-reset-btn" class="btn btn-secondary">Reset All Filters</button>
+      </div>
+
+      <div class="quotes-grid" id="quotes-grid">
+        <!-- Populated dynamically by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Built with Python Flask &amp; Vanilla JavaScript &bull; 100 Well-Known Quotes</p>
+    </div>
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
